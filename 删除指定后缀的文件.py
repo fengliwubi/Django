@@ -12,6 +12,5 @@ new_path=my_path+'\\'
 for file_name in listdir(my_path):
 
     if file_name.endswith('.ev4'):
-        print(file_name)
         new_path=new_path+file_name
         os.remove(new_path)
